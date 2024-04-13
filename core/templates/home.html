@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>ResilientChainAI - Home</title>
+</head>
+<body>
+    <h1>Welcome to ResilientChainAI</h1>
+    <p>Total Users: {{ users_count }}</p>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ResilientChainAI - Home</title>
+    <style>
+        .container {
+            position: fixed;
+            bottom: 20px; /* Adjust as needed */
+            right: 20px; /* Adjust as needed */
+            background-color: #f0f0f0; /* Background color of the box */
+            border: 1px solid #ccc; /* Border of the box */
+            padding: 10px; /* Padding inside the box */
+            width: 500px; /* Width of the box */
+            height: 890px; /* Height of the box */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to ResilientChainAI</h1>
+    <p>Total Users: {{ users_count }}</p>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+    <div class="container">
+        <!-- Content for the rectangular box -->
+        <!-- You can put any content you want inside this div -->
+        <h2>Customer Feedback Section</h2>
+    </div>
+</body>
+</html>
